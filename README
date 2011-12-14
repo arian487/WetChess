@@ -1,0 +1,28 @@
+This was done for my graphics project at the university of waterloo.  It must
+be noted that the point of the project was NOT the actual chess, but rather
+the graphics of it.  So you will notice obvious bugs in the Chess logic.  I plan
+to fix all of these either by improving the backend engine or just ripping my
+engine out and sticking in an open source one.  
+
+WHAT YOU NEED:
+
+You'll need gtkmm version 2.4, lua5.1, OpenAL, GLEW, GLUT, and at least OpenGL
+2.1.  You don't need an amazing graphics card but a decent one is needed.  The
+program is GPU heavy and it lags when run in software mode.  My macbook runs it
+fine so anything with a decent graphics card should do.  
+
+CONTROLS:
+
+In perspective mode, left mouse button translates x and y, middle mouse button
+translates along z, and left mouse button rotates the board.  In game mode, 
+clicking a piece will select it, and clicking a square will result in a move.
+In camera mode, left mouse button rotates the camera around the scene.
+NOTE: I currently have no good feedback for when a piece is clicked, or if a 
+move failed.  Furthermore the game 'moo's' when someone checkmates.  I'll 
+work on improving all of these issues.  
+
+Finally, I'm well aware that the code isn't the best it could be.  I had 3 
+weeks to finish this so the best code practices weren't always in my head...
+especially after two straight all nighters trying to meet the deadline!
+
+Enjoy the game!  Any feedback is appreciated.  
